@@ -1,0 +1,62 @@
+
+body { margin: 30px; }
+
+.content {position: relative;
+ margin: 0 auto;
+  width: 900px;
+   height: 445px; background-color: #f0f0f0; display: table;}
+
+.cell{display: table-cell;position: relative;}
+.row{display: table-row;}
+.simple-zombie-view {
+	background-image: url(../img/default.gif); 
+	background-size: cover;
+	width: 55px;
+	height: 80px;
+}
+.strong-zombie-view {
+	background-image: url(../img/strong.gif); 
+	background-size: cover;
+	width: 60px;
+	height: 80px;
+}
+.fast-zombie-view {
+	background-image: url(../img/michael.gif); 
+	background-size: cover;
+	width: 55px;
+	height: 80px;
+}
+.bullet { 
+	width: 26px;
+	height: 26px;
+
+	position: absolute;
+	right: 820px;
+	top: 10px;
+	background-size: cover;
+	background-image: url(../img/more/pea-bullet.png);
+ }
+.grass{background-image: url(../img/grass.png)}
+.grass-even{background-image: url(../img/grass-even.png)}
+.zombie-health {
+	width: 58px;
+	height: 7px;
+	background-color: red;
+	border: 1px solid black;
+}
+
+.zombie-model {
+	width: 58px;
+	height: 93px;
+	
+	position: absolute;
+	 right: 1px; 
+	 bottom: 1px;
+}
+
+.plant-model { 
+	width: 80px;
+	height: 68px;
+	position: absolute;
+	background-image: url(../img/more/pea-shooter.gif);
+ }
